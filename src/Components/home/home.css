@@ -1,0 +1,8 @@
+
+.background-image {
+    background-image:linear-gradient(rgba(188, 185, 185, 0.345),rgba(251, 245, 245, 0.345) ), url(/public/images/splash-bg.jpg);
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
