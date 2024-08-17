@@ -3,49 +3,61 @@ import Skills from "../skills/Skills";
 
 function Project() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen border-[0.2px] border-red-600 ">
       <>
         <NavBar />
         <h2>
-          <Skills />
+          <Skills  />
         </h2>
-        <h1 className="text-center text-4xl font-bold mt-20">Projects</h1>
-        <h3 className="text-center p-2"> What I have been working on...</h3>
-        <p className="text-center">
+        <h1 className="text-center text-4xl font-bold mt-20 border-[0.2px] border-red-600">Projects</h1>
+        <h3 className="text-center p-2 border-[0.2px] border-red-600"> What I have been working on...</h3>
+        <p className="text-center border-[0.2px] border-red-600">
           Take a look at some of the applications I have been working on
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-white shadow-lg rounded-lg ">
             <img
               src="/images/care-project.png"
-             alt="carefinder project" />
-            <div className="p-4">
-              <h2 className="font-bold text-2xl">Carefinder</h2>
-              <p className="">Project Description</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown m-4">Live Project</button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown">Github view</button>
+             alt="carefinder project" className="border-[0.2px] border-red-600" />
+            <div className="p-4 border-[0.2px] border-red-600">
+              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Carefinder</h2>
+              <p className="border-[0.2px] border-red-600">Carefinder is a tool designed to help users locate healthcare centers, 
+                such as hospitals and clinics, near them within Nigeria.
+                 It allows users to search for these facilities...</p>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://carefinder-alt-ec5v.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Live Project</a></button>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Github View</a></button>
             </div>
           </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden border-[0.2px] border-red-600">
             <img
               src="/images/vue-gihub-repo-project.png"
-             alt="vue github fetch project" />
-            <div className="p-4">
-              <h2 className="font-bold text-2xl">Github repo fetch using vue.</h2>
-              <p className="">Project Description</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown m-4">Live Project</button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown">Github view</button>
+             alt="vue github fetch project" className="border-[0.2px] border-red-600" />
+            <div className="p-4 border-[0.2px] border-red-600">
+              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Github repo fetch using vue.</h2>
+              <p className="border-[0.2px] border-red-600">Using Vue to fetch repos from github,
+                there is also a pagination to help you sift through the repos and a single repo details 
+              page that allows you view the details of a single repo...</p>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://altschool-vue-github-repo.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Live Project</a></button>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Github View</a></button>
             </div>
           </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="bg-white shadow-lg rounded-lg">
             <img
               src="/images/react-github-repo-project.png"
-             alt="react github fetch project" />
-            <div className="p-4">
-              <h2 className="font-bold text-2xl">Github repo fetch using react</h2>
-              <p className="">Project Description</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown m-4">Live Project</button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown">Github view</button>
+             alt="react github fetch project" className="border-[0.2px] border-red-600"/>
+            <div className="p-4 border-[0.2px] border-red-600">
+              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Github repo fetch using react</h2>
+              <p className="border-[0.2px] border-red-600">Using react to fetch repositories from github, 
+                there is pagination to help you sift through the repos and a single repo details 
+                page that allows you view the details of a single repo...</p>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Live Project</a></button>
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className="no-underline text-black hover:text-mintWhite">
+              Github View</a></button>
             </div>
           </div>
           </div>

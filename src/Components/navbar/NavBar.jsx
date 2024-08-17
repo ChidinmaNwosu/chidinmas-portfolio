@@ -6,7 +6,7 @@ import  "./navbar.css"
 
 function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary border-[0.2px] border-red-600">
       <Container fluid>
         <Navbar.Brand href="#home">
           <img
@@ -14,7 +14,7 @@ function NavBar() {
             src="/images/cn-logo-blackbg.png"
             width="50"
             height="50"
-          
+            className="border-[0.2px] border-red-600"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,7 +28,7 @@ function NavBar() {
           <Nav>
             <Nav.Link>
               <span>
-            <MdDarkMode className="w-8 h-8"/>
+            <MdDarkMode className="w-8 h-8 border-[0.2px] border-red-600"/>
               </span>
             </Nav.Link>
           </Nav>
