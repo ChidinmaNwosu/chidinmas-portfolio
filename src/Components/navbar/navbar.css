@@ -1,5 +1,34 @@
-
 .hover-text:hover {
    color: #fefaff !important;
    
 }
+
+body.dark-mode {
+   background-color: #121212;
+   color: #ffffff;
+ }
+ 
+ body.dark-mode .navbar {
+   background-color: #333333;
+ }
+ 
+ body.dark-mode .nav-link {
+   color: black;
+ }
+ 
+ body.dark-mode .nav-link:hover {
+   background-color: #444444;
+ }
+ 
+ body.dark-mode .dark-mode-toggle {
+   background-color: #ffffff;
+   color: #000000;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ body.dark-mode .dark-mode-toggle {
+   background-color: #000000;
+   color: #ffffff;
+ }

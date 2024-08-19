@@ -1,12 +1,27 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { MdDarkMode } from "react-icons/md";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
 import  "./navbar.css"
+import { useState, useEffect } from "react";
 
 function NavBar() {
+  const [darkMode, setDarkMode] = useState(false);
+
+useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add('dark-mode');
+    } else {
+      document.body.classList.remove('dark-mode');
+    }
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary border-[0.2px] border-red-600">
+    <Navbar collapseOnSelect expand="lg" className="bg-light">
       <Container fluid>
         <Navbar.Brand href="#home">
           <img
@@ -14,7 +29,7 @@ function NavBar() {
             src="/images/cn-logo-blackbg.png"
             width="50"
             height="50"
-            className="border-[0.2px] border-red-600"
+            className=""
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -26,9 +41,13 @@ function NavBar() {
             <Nav.Link href="/contact"className="hover:bg-mintBrown hover-text rounded-md ">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link>
+            <Nav.Link onClick={toggleDarkMode}>
               <span>
-            <MdDarkMode className="w-8 h-8 border-[0.2px] border-red-600"/>
+                {darkMode ? (
+                  <MdLightMode className="w-8 h-8"/>
+                 ) : (
+                  <MdDarkMode className="w-8 h-8 "/>
+                 )}
               </span>
             </Nav.Link>
           </Nav>

@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import {useNavigate} from "react-router-dom";
 
+AOS.init();//initializing AOS
+
 function Home() {
   //Use useNavigate to navigate to the about page
   const navigate = useNavigate();
@@ -21,7 +23,7 @@ function Home() {
   const [letterSpeed, setLetterSpeed] = useState(300 - Math.random() * 100);
   const period = 3000;
 
-  useEffect(() => {
+useEffect(() => {
     let ticker = setInterval(() => {
       tick();
     }, letterSpeed);
@@ -60,6 +62,7 @@ function Home() {
   }, []);
 
 
+
 //adding an event handler to navigate to the about page(trigger the useNavigate hook)
 const handleClick = () => {
     navigate('/about');
@@ -68,13 +71,16 @@ const handleClick = () => {
   return (
     <>
       <NavBar />
-      <div className="background-image flex gap-4 justify-center items-center text-center text-5xl border-[0.2px] border-red-600" data-aos="fade-zoom-in">
-        <div className="border-[0.2px] border-red-600">
-          <p className="h-[3rem] border-[0.2px] border-red-600">{text}</p>
-          <button onClick={handleClick} className="mt-3 bg-mintBlack px-6 py-3 text-mintWhite rounded-md text-2xl hover:bg-mintBrown border-[0.2px] border-red-600">
+      <div className="background-image flex flex-col gap-4 justify-center items-center text-center text-5xl border-[0.2px] border-red-600" data-aos="fade-zoom-out">
+        <div className=" overlay p-2 mb-5">
+          <p className="h-[2rem] p-5 ">{text}</p>
+         </div>
+         <div className=" p-2">
+         <button onClick={handleClick} className=" bg-mintWhite px-6 py-3 text-mintBlack rounded-md text-2xl hover:bg-mintBrown hover:text-mintWhite">
             More About Me
           </button>
-        </div>
+         </div>
+         
       </div>
     </>
   );
