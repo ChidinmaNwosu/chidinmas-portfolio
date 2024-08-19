@@ -5,8 +5,8 @@ import Skills from "../skills/Skills";
 
 function Project() {
   return (
-    <div className="min-h-screen border-[0.2px] border-red-600 ">
       <>
+    <div className="min-h-screen border-[0.2px] border-red-600 ">
         <NavBar />
         <h2>
           <Skills  />
@@ -62,9 +62,34 @@ function Project() {
               Github View</Link></button>
             </div>
           </div>
+          <div className="bg-white shadow-lg rounded-lg">
+            <img
+              src="/images/typescript-basics.png"
+             alt="typescript slidev presentation" className="w-full rounded-md"/>
+            <div className="p-4 ">
+              <h2 className="font-bold text-2xl">Typescript basics</h2>
+              <p className="">A slidev presentation showing the basics of typescript.</p>
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://basics-typescript.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
+              Live Project</Link></button>
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/basics-typescript" target="blank" className=" no-underline hover:text-white hover:bg-mintBrown">
+              Github View</Link></button>
+            </div>
           </div>
-      </>
+          <div className="bg-white shadow-lg rounded-lg">
+            <img
+              src="/images/blog-post.png"
+             alt="vue router" className="w-full rounded-md"/>
+            <div className="p-4 ">
+              <h2 className="font-bold text-2xl">Navigating successs: setting up vue router in your project.</h2>
+              <p className="">A detailed breakdown on how to setup your vue router in a project to enable smooth and seamless navigation.</p>
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://medium.com/@chidinmaifynwosu/navigating-success-setting-up-vue-router-in-your-project-770fe3309603" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
+              Medium link</Link></button>
+              
+            </div>
+          </div>
+       </div>
     </div>
+   </>
   );
 }
 
