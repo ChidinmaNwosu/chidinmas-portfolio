@@ -26,9 +26,9 @@ function Project() {
               <p className="">Carefinder is a tool designed to help users locate healthcare centers, 
                 such as hospitals and clinics, near them within Nigeria.
                  It allows users to search for these facilities...</p>
-              <button className=" btn p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://carefinder-alt-ec5v.vercel.app/" target="blank" className=" link no-underline text-black ">
+              <button className=" p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://carefinder-alt-ec5v.vercel.app/" target="blank" className="  no-underline text-black ">
               Live Project</Link></button>
-              <button className="btn p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className="link no-underline text-black ">
+              <button className=" p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className=" no-underline text-black ">
               Github View</Link></button>
             </div>
           </div>
@@ -41,9 +41,9 @@ function Project() {
               <p className="">Using Vue to fetch repos from github,
                 there is also a pagination to help you sift through the repos and a single repo details 
               page that allows you view the details of a single repo...</p>
-              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><Link to="https://altschool-vue-github-repo.vercel.app/" target="blank" className="link no-underline text-black ">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><Link to="https://altschool-vue-github-repo.vercel.app/" target="blank" className=" no-underline text-black ">
               Live Project</Link></button>
-              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown "><Link to="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className="link no-underline text-black ">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown "><Link to="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className=" no-underline text-black ">
               Github View</Link></button>
             </div>
           </div>
@@ -56,9 +56,9 @@ function Project() {
               <p className="">Using react to fetch repositories from github, 
                 there is pagination to help you sift through the repos and a single repo details 
                 page that allows you view the details of a single repo...</p>
-              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className="link no-underline text-black ">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className=" no-underline text-black ">
               Live Project</Link></button>
-              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className="link no-underline text-black">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className=" no-underline text-black">
               Github View</Link></button>
             </div>
           </div>
