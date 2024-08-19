@@ -49,39 +49,39 @@ function Skills() {
                 className="p-2 xl:w-[80%] mx-auto mt-8 border-[0.2px] border-red-600"
                 spaceBetween={2}
               >
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><FaHtml5 size={100} color="#ff4500"/></span>
                   <h5>HTML</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600 ">
                   <span className="border-[0.2px] border-red-600"><FaCss3Alt size={100} color="#264de4"/></span> 
                   <h5>CSS</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                 <span className="border-[0.2px] border-red-600"><RiTailwindCssFill size={100} color="#00d8ff"/></span> 
                 <h5>TAILWIND</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                 <span className="border-[0.2px] border-red-600"><FaGithubSquare size={100} color="#bd2c00"/></span> 
                <h5>GIT/GITHUB</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600 ">
                   <span className="border-[0.2px] border-red-600"><FaReact size={100} color="#00d8ff"/></span> 
                  <h5>REACT</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><RiVuejsFill size={100} color=" #41B883" /></span> 
                   <h5>VUE</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><SiTypescript size={100} color="#007acc"/></span> 
                   <h5>TYPESCRIPT</h5>
                 </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><FaBootstrap size={100} color="#aa00ff"/></span> 
                   <h5>BOOTSTRAP</h5>
                   </div>
-                <div className="flex flex-col items-center border-[0.2px] border-red-600">
+                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><RiNextjsFill size={100} color="#000000"/></span> 
                   <h5>NEXT</h5>
                   </div>

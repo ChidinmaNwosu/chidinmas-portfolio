@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import NavBar from "../navbar/NavBar";
 import Skills from "../skills/Skills";
+import "./project.css";
 
 function Project() {
   return (
@@ -18,46 +20,46 @@ function Project() {
           <div className="bg-white shadow-lg rounded-lg ">
             <img
               src="/images/care-project.png"
-             alt="carefinder project" className="border-[0.2px] border-red-600" />
-            <div className="p-4 border-[0.2px] border-red-600">
-              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Carefinder</h2>
-              <p className="border-[0.2px] border-red-600">Carefinder is a tool designed to help users locate healthcare centers, 
+             alt="carefinder project" className="w-full rounded-md" />
+            <div className="p-4 ">
+              <h2 className="font-bold text-2xl ">Carefinder</h2>
+              <p className="">Carefinder is a tool designed to help users locate healthcare centers, 
                 such as hospitals and clinics, near them within Nigeria.
                  It allows users to search for these facilities...</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://carefinder-alt-ec5v.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Live Project</a></button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Github View</a></button>
+              <button className=" btn p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://carefinder-alt-ec5v.vercel.app/" target="blank" className=" link no-underline text-black ">
+              Live Project</Link></button>
+              <button className="btn p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className="link no-underline text-black ">
+              Github View</Link></button>
             </div>
           </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden border-[0.2px] border-red-600">
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden ">
             <img
               src="/images/vue-gihub-repo-project.png"
-             alt="vue github fetch project" className="border-[0.2px] border-red-600" />
-            <div className="p-4 border-[0.2px] border-red-600">
-              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Github repo fetch using vue.</h2>
-              <p className="border-[0.2px] border-red-600">Using Vue to fetch repos from github,
+             alt="vue github fetch project" className="w-full rounded-md"/>
+            <div className="p-4 ">
+              <h2 className="font-bold text-2xl ">Github repo fetch using vue.</h2>
+              <p className="">Using Vue to fetch repos from github,
                 there is also a pagination to help you sift through the repos and a single repo details 
               page that allows you view the details of a single repo...</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://altschool-vue-github-repo.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Live Project</a></button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Github View</a></button>
+              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><Link to="https://altschool-vue-github-repo.vercel.app/" target="blank" className="link no-underline text-black ">
+              Live Project</Link></button>
+              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown "><Link to="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className="link no-underline text-black ">
+              Github View</Link></button>
             </div>
           </div>
           <div className="bg-white shadow-lg rounded-lg">
             <img
               src="/images/react-github-repo-project.png"
-             alt="react github fetch project" className="border-[0.2px] border-red-600"/>
-            <div className="p-4 border-[0.2px] border-red-600">
-              <h2 className="font-bold text-2xl border-[0.2px] border-red-600">Github repo fetch using react</h2>
-              <p className="border-[0.2px] border-red-600">Using react to fetch repositories from github, 
+             alt="react github fetch project" className="w-full rounded-md"/>
+            <div className="p-4 ">
+              <h2 className="font-bold text-2xl">Github repo fetch using react</h2>
+              <p className="">Using react to fetch repositories from github, 
                 there is pagination to help you sift through the repos and a single repo details 
                 page that allows you view the details of a single repo...</p>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4"><a href="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Live Project</a></button>
-              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><a href="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className="no-underline text-black hover:text-mintWhite">
-              Github View</a></button>
+              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className="link no-underline text-black ">
+              Live Project</Link></button>
+              <button className="btn p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className="link no-underline text-black">
+              Github View</Link></button>
             </div>
           </div>
           </div>
