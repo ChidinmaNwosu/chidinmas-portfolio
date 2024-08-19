@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import NavBar from "../navbar/NavBar";
 import Skills from "../skills/Skills";
-import "./project.css";
+
 
 function Project() {
   return (

@@ -7,7 +7,6 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RiVuejsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import "react-multi-carousel/lib/styles.css";
 
@@ -77,11 +76,7 @@ function Skills() {
                   <span className="border-[0.2px] border-red-600"><SiTypescript size={100} color="#007acc"/></span> 
                   <h5>TYPESCRIPT</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                  <span className="border-[0.2px] border-red-600"><FaBootstrap size={100} color="#aa00ff"/></span> 
-                  <h5>BOOTSTRAP</h5>
-                  </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
+               <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
                   <span className="border-[0.2px] border-red-600"><RiNextjsFill size={100} color="#000000"/></span> 
                   <h5>NEXT</h5>
                   </div>
