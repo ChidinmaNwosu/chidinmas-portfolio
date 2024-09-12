@@ -71,9 +71,9 @@ const handleClick = () => {
   return (
     <>
       <NavBar />
-      <div className="background-image flex flex-col gap-4 justify-center items-center text-center text-5xl border-[0.2px] border-red-600" data-aos="fade-zoom-out">
-        <div className=" overlay p-2 mb-5">
-          <p className="h-[2rem] p-5 ">{text}</p>
+      <div className="background-image flex flex-col gap-4 justify-center items-center text-center text-5xl" data-aos="fade-zoom-out">
+        <div className=" overlay p-4 mb-4">
+          <p className="h-[2rem] xl:p-5 text-3xl lg:text-5xl">{text}</p>
          </div>
          <div className=" p-2">
          <button onClick={handleClick} className=" bg-mintWhite px-6 py-3 text-mintBlack rounded-md text-2xl hover:bg-mintBrown hover:text-mintWhite">

@@ -34,50 +34,50 @@ function Skills() {
     },
   };
   return (
-    <section className="border-[0.2px] border-red-600">
-      <Container className="mx-auto m-5 border-[0.2px] border-red-600">
+    <section className="">
+      <Container className="mx-auto m-5 ">
         <Row>
           <Col>
-            <div className=" border-[0.2px] border-red-600">
-              <h2 className="text-center text-4xl font-bold border-[0.2px] border-red-600">Skills</h2>
-              <p className="text-center font-thin text-2xl leading-8 border-[0.2px] border-red-600"> Some Skills I&apos;ve Acquired on this Journey...</p>
-              <p className="text-center font-thin text-2xl border-[0.2px] border-red-600">Through my studies, I&apos;ve gained some knowlegde of some frontend developement concepts using these skills:</p>
+            <div className="">
+              <h2 className="text-center text-4xl font-bold ">Skills</h2>
+              <p className="text-center font-thin text-2xl leading-8 "> Some Skills I&apos;ve Acquired on this Journey...</p>
+              <p className="text-center font-thin text-2xl">Through my studies, I&apos;ve gained some knowlegde of some frontend developement concepts using these skills:</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="p-2 xl:w-[80%] mx-auto mt-8 border-[0.2px] border-red-600"
+                className="p-2 xl:w-[80%] mx-auto mt-8 "
                 spaceBetween={2}
               >
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                  <span className="border-[0.2px] border-red-600"><FaHtml5 size={100} color="#ff4500"/></span>
+                <div className="flex flex-col items-center p-2">
+                  <span className=""><FaHtml5 size={100} color="#ff4500"/></span>
                   <h5>HTML</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600 ">
-                  <span className="border-[0.2px] border-red-600"><FaCss3Alt size={100} color="#264de4"/></span> 
+                <div className="flex flex-col items-center p-2 ">
+                  <span className=""><FaCss3Alt size={100} color="#264de4"/></span> 
                   <h5>CSS</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                <span className="border-[0.2px] border-red-600"><RiTailwindCssFill size={100} color="#00d8ff"/></span> 
+                <div className="flex flex-col items-center p-2">
+                <span className=""><RiTailwindCssFill size={100} color="#00d8ff"/></span> 
                 <h5>TAILWIND</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                <span className="border-[0.2px] border-red-600"><FaGithubSquare size={100} color="#bd2c00"/></span> 
+                <div className="flex flex-col items-center p-2">
+                <span className=""><FaGithubSquare size={100} color="#bd2c00"/></span> 
                <h5>GIT/GITHUB</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600 ">
-                  <span className="border-[0.2px] border-red-600"><FaReact size={100} color="#00d8ff"/></span> 
+                <div className="flex flex-col items-center p-2">
+                  <span className=""><FaReact size={100} color="#00d8ff"/></span> 
                  <h5>REACT</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                  <span className="border-[0.2px] border-red-600"><RiVuejsFill size={100} color=" #41B883" /></span> 
+                <div className="flex flex-col items-center p-2 ">
+                  <span className=""><RiVuejsFill size={100} color=" #41B883" /></span> 
                   <h5>VUE</h5>
                 </div>
-                <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                  <span className="border-[0.2px] border-red-600"><SiTypescript size={100} color="#007acc"/></span> 
+                <div className="flex flex-col items-center p-2 ">
+                  <span className=""><SiTypescript size={100} color="#007acc"/></span> 
                   <h5>TYPESCRIPT</h5>
                 </div>
-               <div className="flex flex-col items-center p-2 border-[0.2px] border-red-600">
-                  <span className="border-[0.2px] border-red-600"><RiNextjsFill size={100} color="#000000"/></span> 
+               <div className="flex flex-col items-center p-2 ">
+                  <span className=""><RiNextjsFill size={100} color="#000000"/></span> 
                   <h5>NEXT</h5>
                   </div>
               </Carousel>

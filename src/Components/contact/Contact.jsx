@@ -35,18 +35,18 @@ function Contact() {
     <>
       <NavBar />
       <div>
-        <div className="flex flex-col gap-5 lg:flex-row lg:items-center p-3 border-[0.2px] border-red-600">
-          <div className="p-4 hidden lg:block border-[0.2px] border-red-600">
-            <img src="../images/contact-us.svg" className="border-[0.2px] border-red-600"/>
-            <p className="text-4xl pt-3 transform transition-transform duration-300 hover:scale-90 border-[0.2px] border-red-600">Want to work with me?</p>
-            <p className="text-3xl transform transition-transform duration-300 hover:scale-90 border-[0.2px] border-red-600">Let&apos;s connect!</p>
-            <p className="text-xl transform transition-transform duration-300 hover:scale-90 border-[0.2px] border-red-600">I am open to <span className="font-bold">remote</span> and <span className="font-bold border-[0.2px] border-red-600">on-site fulltime</span>, part-time and contract frontend web development jobs.</p>
+        <div className="flex flex-col gap-5 lg:flex-row lg:items-center p-3">
+          <div className="p-4 hidden lg:block ">
+            <img src="../images/contact-us.svg"/>
+            <p className="text-4xl pt-3 transform transition-transform duration-300 hover:scale-90 ">Want to work with me?</p>
+            <p className="text-3xl transform transition-transform duration-300 hover:scale-90 ">Let&apos;s connect!</p>
+            <p className="text-xl transform transition-transform duration-300 hover:scale-90 ">I am open to <span className="font-bold">remote</span> and <span className="font-bold ">on-site fulltime</span>, part-time and contract frontend web development jobs.</p>
           </div>
-          <div className="lg:w-1/2 border-[0.2px] border-red-600">
-            <h1 className="text-3xl font-bold pb-2 border-[0.2px] border-red-600">Contact Me</h1>
-            <form className="grid gap-4 border-[0.2px] border-red-600" onSubmit={handleSubmit}>
-              <div className="grid gap-3 border-[0.2px] border-red-600" >
-                <label className="font-bold text-xl border-[0.2px] border-red-600">Name</label>
+          <div className="lg:w-1/2 ">
+            <h1 className="text-3xl font-bold pb-2 ">Contact Me</h1>
+            <form className="grid gap-4" onSubmit={handleSubmit}>
+              <div className="grid gap-3" >
+                <label className="font-bold text-xl">Name</label>
                 <input
                   type="text"
                   className="border-4 p-3 border-mintBrown lg:p-4 lg:w-[80%]"
@@ -63,8 +63,8 @@ function Contact() {
                   onChange={(e) => onFormUpdate("email", e.target.value)}
                 />
               </div>
-              <div className="grid gap-3 border-[0.2px] border-red-600">
-                <label className="font-bold text-xl border-[0.2px] border-red-600">Message</label>
+              <div className="grid gap-3 ">
+                <label className="font-bold text-xl ">Message</label>
                 <textarea
                   cols={5}
                   rows={5}
@@ -73,7 +73,7 @@ function Contact() {
                   onChange={(e) => onFormUpdate("message", e.target.value)}
                 ></textarea>
                 <div className="relative p-4 lg:w-[80%] h-[80px] mt-4 border-[3px] border-mintBrown hover:border-none transition-all">
-                <button className="absolute p-4 right-[9px] bottom-2 bg-mintBrown text-mintWhite text-2xl text-bold w-full border-[0.2px] border-red-600">
+                <button className="absolute p-4 right-[9px] bottom-2 bg-mintBrown text-mintWhite text-2xl text-bold w-full ">
                   CONNECT
                 </button>
                 </div>
