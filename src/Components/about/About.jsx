@@ -10,7 +10,7 @@ import "../about/about.css";
 
 function About() {
   return (
-    <div>
+    <div >
       <NavBar />
       <>
         <div className="background-img flex flex-col-reverse gap-2 lg:flex-row lg:items-center ">

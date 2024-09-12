@@ -21,7 +21,7 @@ useEffect(() => {
   };
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-light">
+    <Navbar collapseOnSelect expand="lg" className="bg-light border-2 border-b-mintBrown">
       <Container fluid>
         <Navbar.Brand href="#home">
           <img
