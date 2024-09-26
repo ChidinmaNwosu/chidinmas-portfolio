@@ -3,9 +3,9 @@ import NavBar from "../navbar/NavBar";
 import "./home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-AOS.init();//initializing AOS
+AOS.init(); //initializing AOS
 
 function Home() {
   //Use useNavigate to navigate to the about page
@@ -23,7 +23,7 @@ function Home() {
   const [letterSpeed, setLetterSpeed] = useState(300 - Math.random() * 100);
   const period = 3000;
 
-useEffect(() => {
+  useEffect(() => {
     let ticker = setInterval(() => {
       tick();
     }, letterSpeed);
@@ -31,7 +31,7 @@ useEffect(() => {
     return () => {
       clearInterval(ticker);
     };
-  },[text] );
+  }, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -53,7 +53,7 @@ useEffect(() => {
     }
   };
 
-//using useEffect to create an ease in/out animation of my background image
+  //using useEffect to create an ease in/out animation of my background image
   useEffect(() => {
     AOS.init({
       duration: 3000,
@@ -61,26 +61,30 @@ useEffect(() => {
     });
   }, []);
 
-
-
-//adding an event handler to navigate to the about page(trigger the useNavigate hook)
-const handleClick = () => {
-    navigate('/about');
+  //adding an event handler to navigate to the about page(trigger the useNavigate hook)
+  const handleClick = () => {
+    navigate("/about");
   };
 
   return (
     <>
-      <NavBar />
-      <div className="background-image flex flex-col gap-4 justify-center items-center text-center text-5xl" data-aos="fade-zoom-out">
-        <div className=" overlay p-4 mb-4">
-          <p className="h-[2rem] xl:p-5 text-3xl lg:text-5xl">{text}</p>
-         </div>
-         <div className=" p-2">
-         <button onClick={handleClick} className=" bg-mintWhite px-6 py-3 text-mintBlack rounded-md text-2xl hover:bg-mintBrown hover:text-mintWhite">
+      <NavBar className={`sticky top-1`} />
+      <div
+        className="background-image flex flex-col gap-4 justify-center items-center text-center text-5xl"
+        data-aos="fade-in"
+      >
+        <div className="overlay p-4 mb-4">
+          <p className="xl:p-5 text-3xl lg:text-5xl md:whitespace-nowrap ">{text}</p>
+        </div>
+
+        <div className=" p-2">
+          <button
+            onClick={handleClick}
+            className=" bg-mintWhite px-6 py-3 text-mintBlack rounded-md text-2xl hover:bg-mintBrown hover:text-mintWhite"
+          >
             More About Me
           </button>
-         </div>
-         
+        </div>
       </div>
     </>
   );

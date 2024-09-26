@@ -1,11 +1,9 @@
 .hover-text:hover {
    color: #fefaff !important;
-   
-}
-
+  }
 
 body.dark-mode {
-   background-color:#121212;
+   background-color:#444444;
    color: #ffffff;
  }
  
@@ -17,6 +15,10 @@ body.dark-mode {
    color: black;
  }
  
+body.dark-mode .overlay {
+   background-color: #444444;
+  }
+
  body.dark-mode .nav-link:hover {
    background-color: #444444;
  }

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -21,7 +22,7 @@ useEffect(() => {
   };
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-light border-2 border-b-mintBrown">
+    <Navbar collapseOnSelect expand="lg" className={`bg-light border-2 !sticky !top-0 z-[99] border-b-mintBrown`}>
       <Container fluid>
         <Navbar.Brand href="#home">
           <img
@@ -35,10 +36,10 @@ useEffect(() => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto text-xl gap-4">
-            <Nav.Link href="/" className="hover:bg-mintBrown hover-text rounded-md">Home</Nav.Link>
-            <Nav.Link href="/about" className="hover:bg-mintBrown hover-text rounded-md ">About</Nav.Link>
-            <Nav.Link href="/projects"className="hover:bg-mintBrown hover-text rounded-md ">Projects</Nav.Link>
-            <Nav.Link href="/contact"className="hover:bg-mintBrown hover-text rounded-md ">Contact</Nav.Link>
+            <Nav.Link href="/" className="md:hover:bg-mintBrown rounded-md">Home</Nav.Link>
+            <Nav.Link href="/about" className="md:hover:bg-mintBrown rounded-md ">About</Nav.Link>
+            <Nav.Link href="/projects"className="md:hover:bg-mintBrown rounded-md ">Projects</Nav.Link>
+            <Nav.Link href="/contact"className="md:hover:bg-mintBrown rounded-md">Contact</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link onClick={toggleDarkMode}>

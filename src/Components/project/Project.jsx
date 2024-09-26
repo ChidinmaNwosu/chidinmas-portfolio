@@ -26,10 +26,12 @@ function Project() {
               <p className="">Carefinder is a tool designed to help users locate healthcare centers, 
                 such as hospitals and clinics, near them within Nigeria.
                  It allows users to search for these facilities...</p>
-              <button className=" p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown mr-4 mb-3"><Link to="https://carefinder-alt-ec5v.vercel.app/" target="blank" className="  no-underline hover:text-white hover:bg-mintBrown">
+                 <div className="flex gap-2">
+              <button className=" p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown"><Link to="https://carefinder-alt-ec5v.vercel.app/" target="blank" className="  no-underline hover:text-white hover:bg-mintBrown">
               Live Project</Link></button>
               <button className=" p-2 border-2 hover:bg-mintBrown  hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/carefinder-alt" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Github View</Link></button>
+              </div>
             </div>
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden ">
@@ -41,10 +43,12 @@ function Project() {
               <p className="">Using Vue to fetch repos from github,
                 there is also a pagination to help you sift through the repos and a single repo details 
               page that allows you view the details of a single repo...</p>
-              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 mb-3"><Link to="https://altschool-vue-github-repo.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
+              <div className="flex gap-2">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://altschool-vue-github-repo.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Live Project</Link></button>
               <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown "><Link to="https://github.com/ChidinmaNwosu/Altschool-vue-github-repo" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Github View</Link></button>
+              </div>
             </div>
           </div>
           <div className="bg-white shadow-lg rounded-lg">
@@ -56,10 +60,12 @@ function Project() {
               <p className="">Using react to fetch repositories from github, 
                 there is pagination to help you sift through the repos and a single repo details 
                 page that allows you view the details of a single repo...</p>
-              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 mb-3"><Link to="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
+                <div className="flex gap-2">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://altschool-github-repo-portfolio.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Live Project</Link></button>
               <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/Altschool-Github-repo-portfolio" target="blank" className=" no-underline hover:text-white hover:bg-mintBrown">
               Github View</Link></button>
+              </div>
             </div>
           </div>
           <div className="bg-white shadow-lg rounded-lg">
@@ -69,12 +75,15 @@ function Project() {
             <div className="p-4 ">
               <h2 className="font-bold text-2xl">Typescript basics</h2>
               <p className="">A slidev presentation showing the basics of typescript.</p>
-              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 mb-3"><Link to="https://basics-typescript.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
+              <div className="flex gap-2">
+              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://basics-typescript.vercel.app/" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Live Project</Link></button>
-              <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/basics-typescript" target="blank" className=" no-underline hover:text-white hover:bg-mintBrown">
+              <button className="p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown"><Link to="https://github.com/ChidinmaNwosu/basics-typescript" target="blank" className=" no-underline hover:text-white hover:bg-mintBrown">
               Github View</Link></button>
+              </div>
             </div>
           </div>
+          
           <div className="bg-white shadow-lg rounded-lg">
             <img
               src="/images/blog-post.png"
@@ -82,8 +91,10 @@ function Project() {
             <div className="p-4 ">
               <h2 className="font-bold text-2xl">Navigating successs: setting up vue router in your project.</h2>
               <p className="">A detailed breakdown on how to setup your vue router in a project to enable smooth and seamless navigation.</p>
+              <div className="flex">
               <button className=" p-2 border-2 hover:bg-mintBrown hover:text-mintWhite border-mintBrown mr-4 "><Link to="https://medium.com/@chidinmaifynwosu/navigating-success-setting-up-vue-router-in-your-project-770fe3309603" target="blank" className=" no-underline  hover:text-white hover:bg-mintBrown">
               Medium link</Link></button>
+              </div>
               
             </div>
           </div>
