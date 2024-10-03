@@ -22,18 +22,17 @@ function About() {
             </h1>
             <p className=" para leading-9 mt-2 text-lg ">
               <span className="text-3xl"> Hi! I&apos;m Chidinma,</span> a
-              budding frontend developer. When I&apos;m not coding, you can find
-              me watching movies of every genre and language, enjoying anime, or
-              diving into novels —lately, I&apos;ve been especially captivated
-              by African literature. I&apos;m currently part of the frontend
-              track at Altschool Africa.
+              frontend developer. When I&apos;m not coding, you can find
+              me watching movies of every genre and language, enjoying anime, reading manga 
+              or diving into novels, I&apos;ve been especially captivated
+              by African literature.
               <br />
               My journey into tech started from scratch. I knew nothing about
               the field, but now I&apos;ve learned HTML and CSS, how to
               manipulate the DOM with JavaScript, and even how to use APIs to
               fetch data from my GitHub. I may not be the best, but I love
-              seeing my small ideas evolve into engaging and interactive user
-              interfaces. Watching something go from bare HTML to a dynamic user
+              seeing my small ideas  and blank pages evolve into engaging 
+              and interactive user interfaces. Watching something go from bare HTML to a dynamic user
               experience is truly exciting for me!
             </p>
 
